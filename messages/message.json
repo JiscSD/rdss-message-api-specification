@@ -85,7 +85,7 @@
     ],
     "objectDate": [
       {
-        "dateValue": "string",
+        "dateValue": "2002-10-02T10:00:00-05:00",
         "dateType": 1
       }
     ],
@@ -137,7 +137,7 @@
         "fileSize": 1,
         "fileLabel": "string",
         "fileDateCreated": {
-          "dateValue": "string",
+          "dateValue": "2002-10-02T10:00:00-05:00",
           "dateType": 1
         },
         "fileRights": {
@@ -172,7 +172,7 @@
         "fileHasMimeType": true,
         "fileDateModified": [
           {
-            "dateValue": "string",
+            "dateValue": "2002-10-02T10:00:00-05:00",
             "dateType": 1
           }
         ],
@@ -190,13 +190,13 @@
         "fileUploadStatus": 1,
         "fileStorageStatus": 1,
         "fileLastDownloaded": {
-          "dateValue": "string",
+          "dateValue": "2002-10-02T10:00:00-05:00",
           "dateType": 1
         },
         "fileTechnicalAttributes": [
           "string"
         ],
-        "fileStorageLocation": "string",
+        "fileStorageLocation": "https://tools.ietf.org/html/rfc3986",
         "fileStorageType": 1
       }
     ]

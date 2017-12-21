@@ -1,4 +1,6 @@
+import sys
 from unittest import TestSuite, TextTestRunner
+
 from tests.header import MessageHeaderTest
 from tests.metadata import MetadataCreateRequestTest, MetadataReadRequestTest, MetadataReadResponseTest, \
     MetadataUpdateRequestTest, MetadataDeleteRequestTest
@@ -29,4 +31,5 @@ def suite():
 if __name__ == '__main__':
     runner = TextTestRunner()
     test_suite = suite()
-    runner.run(test_suite)
+    result = runner.run(test_suite)
+    sys.exit(1 if len(result.errors) > 0 else 0)

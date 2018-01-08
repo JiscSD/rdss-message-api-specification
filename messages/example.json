@@ -1,6 +1,6 @@
 {
   "messageHeader": {
-    "messageId": "string",
+    "messageId": "be8eff14-a92b-429e-80b8-0ec4594d72c0",
     "correlationId": "string",
     "messageClass": "Command",
     "messageType": "MetadataCreate",
@@ -10,7 +10,7 @@
       "expirationTimestamp": ""
     },
     "messageSequence": {
-      "sequence": "string",
+      "sequence": "1529d794-10cf-44c1-86d4-2d7b70dbbb15",
       "position": 1,
       "total": 1
     },

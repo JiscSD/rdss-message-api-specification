@@ -1,10 +1,10 @@
 {
-  "objectUuid": "string",
+  "objectUuid": "4704f353-ca71-407a-a181-643633ec2bce",
   "objectTitle": "string",
   "objectPersonRole": [
     {
       "person": {
-        "personUuid": "string",
+        "personUuid": "8e8ee11d-7540-469b-88f1-2dedb98202a7",
         "personIdentifier": [
           {
             "personIdentifierValue": "string",
@@ -106,7 +106,7 @@
   ],
   "objectFile": [
     {
-      "fileUuid": "string",
+      "fileUuid": "5f483b4a-8e2c-4dd2-9361-a4fa7047b8c6",
       "fileIdentifier": "string",
       "fileName": "string",
       "fileSize": 1,
@@ -137,7 +137,7 @@
       },
       "fileChecksum": [
         {
-          "checksumUuid": "string",
+          "checksumUuid": "7b466a8e-aae7-44d2-ad69-953e1efdd5f8",
           "checksumType": 1,
           "checksumValue": "string"
         }

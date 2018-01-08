@@ -10,7 +10,7 @@
       "expirationTimestamp": ""
     },
     "messageSequence": {
-      "sequence": "string",
+      "sequence": "6ad8194d-d1d0-4389-a64d-c73d761463c9",
       "position": 1,
       "total": 1
     },
@@ -24,12 +24,12 @@
     "errorDescription": "string"
   },
   "messageBody": {
-    "objectUuid": "string",
+    "objectUuid": "5680e8e0-28a5-4b20-948e-fd0d08781e0b",
     "objectTitle": "string",
     "objectPersonRole": [
       {
         "person": {
-          "personUuid": "string",
+          "personUuid": "27811a4c-9cb5-4e6d-a069-5c19288fae58",
           "personIdentifier": [
             {
               "personIdentifierValue": "string",
@@ -131,7 +131,7 @@
     ],
     "objectFile": [
       {
-        "fileUuid": "string",
+        "fileUuid": "e150c4ab-0370-4e5a-8722-7fb3369b7017",
         "fileIdentifier": "string",
         "fileName": "string",
         "fileSize": 1,
@@ -162,7 +162,7 @@
         },
         "fileChecksum": [
           {
-            "checksumUuid": "string",
+            "checksumUuid": "df23b46b-6b64-4a40-842f-5ad363bb6e11",
             "checksumType": 1,
             "checksumValue": "string"
           }

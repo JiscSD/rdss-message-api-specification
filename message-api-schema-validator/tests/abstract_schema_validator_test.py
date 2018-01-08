@@ -29,6 +29,10 @@ class AbstractSchemaValidatorTest(TestCase):
         (
             'https://www.jisc.ac.uk/rdss/schema/types.json/#',
             'schemas/types.json'
+        ),
+        (
+            'https://www.jisc.ac.uk/rdss/schema/messages/header/header_schema.json/#',
+            'messages/header/header_schema.json'
         )
     ]
 

@@ -32,7 +32,7 @@
       "type": "object",
       "properties": {
         "personUuid": {
-          "$ref": "https://www.jisc.ac.uk/rdss/schema/types.json/#/definitions/nonEmptyString"
+          "$ref": "https://www.jisc.ac.uk/rdss/schema/types.json/#/definitions/uuid"
         },
         "personIdentifier": {
           "type": "array",

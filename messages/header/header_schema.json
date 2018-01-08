@@ -1,0 +1,80 @@
+{
+  "id": "https://www.jisc.ac.uk/rdss/schema/messages/header/header_schema.json/#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions" : {
+    "object" : {
+      "type": "object",
+      "properties": {
+        "messageId": {
+          "type": "string"
+        },
+        "correlationId": {
+          "type": "string"
+        },
+        "messageClass" : {
+          "enum" : ["Command", "Event", "Document"]
+        },
+        "messageType" : {
+          "enum": ["MetadataCreate", "MetadataUpdate", "MetadataDelete", "MetadataRead", "VocabularyRead", "VocabularyPatch"]
+        },
+        "returnAddress": {
+          "type" : "string"
+        },
+        "messageTimings": {
+          "type" : "object",
+          "properties": {
+            "publishedstring": {
+              "description" : "Point in time when message was dispatched",
+              "type" : "string",
+              "format" : "date-time"
+            },
+            "expirationstring" : {
+              "type": "string",
+              "pattern" : "date-time"
+            }
+          }
+        },
+
+        "messageSequence" : {
+          "type": "object",
+          "properties": {
+            "sequence": {
+              "$ref": "https://www.jisc.ac.uk/rdss/schema/types.json/#/definitions/uuid"
+            },
+            "position": {
+              "type": "integer"
+            },
+            "total": {
+              "type": "integer"
+            }
+          }
+        },
+
+        "messageHistory" : {
+          "type" : "object",
+          "properties" : {
+            "machineId" : {
+              "type" : "string"
+            },
+            "machineAddress" : {
+              "type": "string"
+            },
+            "string" : {
+              "type" : "string"
+            }
+          }
+        },
+        "version": {
+          "type" : "string"
+        },
+        "errorCode" : {
+          "type" : "string"
+        },
+        "errorDescription" : {
+          "type" : "string"
+        }
+
+      }
+    }
+  }
+}

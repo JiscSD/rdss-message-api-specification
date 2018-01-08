@@ -2,7 +2,7 @@
   "id": "https://www.jisc.ac.uk/rdss/schema/messages/body/metadata/read/request_schema.json/#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "objectUuid": {
-    "type": "string"
+    "$ref": "https://www.jisc.ac.uk/rdss/schema/types.json/#/definitions/uuid"
   },
   "required": [
     "objectUuid"

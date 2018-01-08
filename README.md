@@ -66,6 +66,7 @@ A Message is broken into two parts:
 - The [Message Body](#message-body)
 
 A complete example of a Message can be found [here](messages/example.json).
+The JSON schema for a complete message can be found [here](messages/message_schema.json)
 
 The standard encoding for a Message is [JSON](http://www.json.org/), and the examples provided in this documentation are given in this format.
 
@@ -127,6 +128,7 @@ All email addresses provided as part of a JSON payload **MUST** be provided in [
 The Message Header contains important metadata describing the Message itself, including the type of Message, routing information, timings, sequencing, and so forth.
 
 An example Message Header can be found [here](messages/header/example.json).
+The JSON schema of the Message Header can be found [here](messages/header/header_schema.json).
 
 ### `messageId`
 

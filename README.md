@@ -24,15 +24,12 @@
 
 This repository documents the RDSS Message API and describes the format and structure of Messages sent within the RDSS project, and architectural designs and patterns for the underlying messaging system.
 
+All internal integration between services that compose RDSS is done using the messages specified below.
+
 The API, format, structures and patterns are derived from material from [Enterprise Integration Patterns](http://www.enterpriseintegrationpatterns.com/).
 
-### Audience
+The rationale for this approach is documented in detail in report on [Initial Technical Architecture and Delivery Proposals](https://zenodo.org/record/344877#.WlM9k1SFi7Y).
 
-The RDSS Message API is intended for the following audience:
-
-- Engineering
-- Operations
-- Quality Assurance
 
 ### Versioning
 
